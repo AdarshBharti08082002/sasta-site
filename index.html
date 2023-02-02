@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sasta Site 😃">
+    <title>Adarsh Bharti</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href="https://www.playstation.com/en-in/"><img src="playstation_Img/logo.png" alt="ps" title="Official PlayStation" class="logo"></a>
+            <nav>
+                <ul id="menuList">
+                    <li><a href="">Game Controller</a></li>
+                    <li><a href="">VR Accessories</a></li>
+                    <li><a href="">Media Remotes</a></li>
+                    <li><a href="">Others</a></li>
+                </ul>
+            </nav>
+            <img src="playstation_Img/menu.png" class="menu-icon" onclick="togglemenu()">
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h2>PS4 V2<br>Dualshock 4</h2>
+                <h3>Wireless Controller for Playstation 4</h3>
+                <p>(Compatible/Generic)</p>
+                <h4>₹25,000</h4>
+                <button type="button">Buy Now<img src="playstation_Img/arrow.png"></button>
+            </div>
+            <div class="col-2">
+                <a href="https://store.playstation.com/en-in/pages/latest?gclsrc=ds&gclsrc=ds"><img src="playstation_Img/controller.png" alt="Buy Original" title="Buy From Original" class="controller"></a>
+                <div class="color-box"></div>
+                <div class="add-btn">
+                    <img src="Playstation_Img/add.png">
+                    <p><small>Add to Cart</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="social-links">
+        <a href="https://www.facebook.com/"><img src="Playstation_Img/fb.png" alt="Facebook" title="Facebook"></a>
+        <a href="https://www.instagram.com/imcursed_x/"><img src="Playstation_Img/ig.png" alt="Insta" title="Instagram"></a>
+        <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><img src="Playstation_Img/tw.png" alt="twitter" title="Twitter"></a>
+        <hr class="line">
+        <br>
+        &#169; 2023 Adarsh Bharti 
+        </div>
+    </div>
+</body>
+<script>
+    var menuList = document.getElementById('menuList');
+    menuList.style.maxHeight="0px";
+    function togglemenu(){
+        if(menuList.style.maxHeight=="0px"){
+            menuList.style.maxHeight="130px";
+        }
+        else{
+            menuList.style.maxHeight="0px";
+        }
+    }
+</script>
+</html>
